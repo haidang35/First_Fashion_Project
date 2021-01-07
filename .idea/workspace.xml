@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="275f41d3-367f-4532-9cbd-710448976ffa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/Home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +33,21 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HTML_DEMO" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nguye\Desktop\First_Fashion_Project\Image\Home" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -43,7 +58,10 @@
       <option name="presentableId" value="Default" />
       <updated>1609821912799</updated>
       <workItem from="1609821913836" duration="884000" />
-      <workItem from="1609827914557" duration="315000" />
+      <workItem from="1609827914557" duration="12317000" />
+      <workItem from="1609897254470" duration="19027000" />
+      <workItem from="1609981676916" duration="12141000" />
+      <workItem from="1610003229988" duration="15695000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1609822087132</created>
@@ -66,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609822443813</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update">
+      <created>1609828255978</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609828255978</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,13 +106,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="735" y="310" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1609822044034" />
-    <state x="585" y="17" key="CommitChangelistDialog2" timestamp="1609822443221">
+    <state x="585" y="17" key="CommitChangelistDialog2" timestamp="1609828251335">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="17" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1609822443221" />
-    <state x="552" y="234" key="Vcs.Push.Dialog.v2" timestamp="1609822446106">
+    <state x="585" y="17" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1609828251335" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1609985612960">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="234" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609822446106" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1609985612960" />
+    <state x="552" y="234" key="Vcs.Push.Dialog.v2" timestamp="1609828261893">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="234" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609828261893" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1609992241528">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609992241528" />
   </component>
 </project>
