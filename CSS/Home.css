@@ -57,12 +57,28 @@ body{
     float: left;
     display: block;
     margin-right: 45px;
+    position: relative;
 }
 .list-menu a{
     text-decoration: none;
     color: #353535;
     font-weight: 400;
 }
+.border-bottom-nav{
+    margin-top: 5px;
+    position: absolute;
+    border-bottom: 2px solid red;
+    width: 10px;
+    margin-left: 16px;
+    opacity: 0;
+}
+.list-menu li:hover .border-bottom-nav{
+    opacity: 1;
+    margin-left: 0;
+    width: 55px;
+    transition: 700ms;
+}
+
 .icon-option{
     float: right;
     margin-top: 5px;
@@ -157,12 +173,13 @@ body{
 .shop-now-button:hover i{
     color: black;
 }
-
+.change-content-box{
+    position: relative;
+}
 .icon-social-box{
     position: absolute;
-    bottom: 0;
     margin-left: 45px;
-    margin-bottom: 25px;
+    margin-top: 745px;
 }
 .icon-social-box i{
     color: black;
@@ -203,7 +220,7 @@ body{
     font-size: 17px;
 }
 .change-button-left{
-
+    cursor: pointer;
     color: #393838;
     font-size: 40px;
     display: block;
@@ -214,6 +231,7 @@ body{
     position: relative;
 }
 .change-button-right{
+    cursor: pointer;
     width: 50px;
     right: 0;
     position: absolute;
@@ -223,13 +241,13 @@ body{
     margin-top: -48px;
     margin-right: 113px;
 }
-.change-content-box-1 .icon-social-box{
+.change-content-box-1 .icon-social-box-1{
     position: absolute;
     bottom: 0;
     margin-left: 0;
     margin-bottom: 25px;
 }
-.icon-social-box i{
+.icon-social-box-1 i{
     color: black;
     font-size: 18px;
     padding-right: 35px;
@@ -446,8 +464,39 @@ body{
     color: #ee1414;
 }
 .product-item:hover .name-product{
+    visibility: hidden;
+    transition: 100ms;
+}
+.product-item{
+    position: relative;
+}
+.choose-color-product{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: auto;
+    height: auto;
+    margin-bottom: 10px;
     opacity: 0;
-    transition: 400ms;
+    transition: 600ms;
+}
+.product-item:hover .choose-color-product{
+    opacity: 1;
+    transition: 800ms;
+}
+.choose-color-product label{
+    color: #565555;
+    font-size: 15px;
+}
+.choose-color-product input{
+    width: 5px;
+    height: 26px;
+    border-radius: 60%;
+    float: left;
+    margin-right: 10px;
+}
+.choose-color-product input:nth-child(5){
+    margin-right: 0;
 }
 .sale-off-box{
     width: auto;
@@ -788,6 +837,31 @@ div.container{
 .footer-box-under span{
     color: #9d9999;
     font-size: 16px;
+}
+section{
+    position: relative;
+    z-index: 1;
+}
+.sub-menu-page{
+    position: absolute;
+    width: 165px;
+    height: auto;
+    background-color: #0f0f0f;
+    z-index: 2;
+    display: none;
+}
+.active .sub-menu-page{
+    display: block;
+}
+.sub-menu-page li{
+    list-style: none;
+    padding: 7px 10px 7px 15px;
+}
+.sub-menu-page a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+
 }
 
 

@@ -30,11 +30,34 @@
                     </div>
                     <nav class="nav-bar">
                         <ul class="list-menu">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Shop</a></li>
-                            <li><a href="#">Pages</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="#" class="home-menu">Home</a> <div class="border-bottom-nav"></div></li>
+                            <li><a href="#" class="shop-menu">Shop</a> <div class="border-bottom-nav"></div></li>
+                            <li class="list-page" onmouseenter="Open_tab_page(this)" onmouseleave="Close_tab_page(this)"><a href="#">Pages</a>
+                                <div class="sub-menu-page" id="sub-menu-page">
+                                    <ul>
+                                        <li style="padding-top: 10px"><a href="#">About Us</a></li>
+                                        <li><a href="#">Shop Details</a></li>
+                                        <li><a href="#">Shopping Cart</a></li>
+                                        <li><a href="#">Check out</a></li>
+                                        <li><a href="#">Blog Details</a></li>
+                                    </ul>
+                                </div>
+                                <script type="text/javascript">
+
+                                    function Open_tab_page(e){
+                                        var item=document.getElementsByClassName("sub-menu-page");
+                                        for(var i=0;i<item.length;i++){
+                                            item[i].classList.remove("active");
+                                        }
+                                        e.classList.add("active");
+                                    }
+                                    function Close_tab_page(e){
+                                        e.classList.remove("active");
+                                    }
+                                </script>
+                            </li>
+                            <li><a href="#">Blog</a><div class="border-bottom-nav"></div></li>
+                            <li><a href="#">Contact</a><div class="border-bottom-nav"></div></li>
                         </ul>
                     </nav>
                     <div class="icon-option">
@@ -48,7 +71,7 @@
     </header>
     <section >
          <div class="content-box-1">
-             <div class="change-content-box items">
+             <div class="change-content-box" id="change-content-box">
                  <div class="container">
                      <div class="collection-box">
                          <h4>Winter Collection</h4>
@@ -56,7 +79,6 @@
                          <p> A specialist label creating luxury essentials. Ethically crafted with an unwavering commitment to exceptional quality </p>
                          <a href="#" class="shop-now-button"><span>Shop now</span> <i class="fas fa-long-arrow-alt-right arrow-button"></i></a>
                      </div>
-
                      <div class="icon-social-box">
                          <a href="#"><i class="fab fa-facebook-f"></i></a>
                          <a href="#"><i class="fab fa-twitter"></i></a>
@@ -64,6 +86,12 @@
                          <a href="#"><i class="fab fa-instagram"></i></a>
                      </div>
                  </div>
+                 <a  class="change-button-left" onclick="change_content_repeat(this)" >
+                     <i class="fas fa-long-arrow-alt-left"></i>
+                 </a>
+                 <a  class="change-button-right" onclick="change_content_repeat(this)">
+                     <i class="fas fa-long-arrow-alt-right"></i>
+                 </a>
              </div>
 
              <div class="change-content-box-1">
@@ -73,7 +101,7 @@
                          <h1>Fall - Winter<br>Collections 2030</h1>
                          <p> A specialist label creating luxury essentials. Ethically crafted with an unwavering commitment to exceptional quality </p>
                          <a href="#" class="shop-now-button"><span>Shop now</span> <i class="fas fa-long-arrow-alt-right arrow-button"></i></a>
-                         <div class="icon-social-box">
+                         <div class="icon-social-box-1">
                              <a href="#"><i class="fab fa-facebook-f"></i></a>
                              <a href="#"><i class="fab fa-twitter"></i></a>
                              <a href="#"><i class="fab fa-pinterest"></i></a>
@@ -81,22 +109,22 @@
                          </div>
                      </div>
                  </div>
-                 <a href="#" class="change-button-left" >
+                 <a  class="change-button-left" onclick="change_content(this)" >
                      <i class="fas fa-long-arrow-alt-left"></i>
                  </a>
-                 <a  href="#" class="change-button-right" onclick="change_content(this)">
+                 <a  class="change-button-right" onclick="change_content(this)">
                      <i class="fas fa-long-arrow-alt-right"></i>
                  </a>
 
              </div>
 
              <script type="text/javascript">
-                 function change_content(e){
-                      var items =document.getElementsByClassName("items");
-                      for(var i=0;i<items.length;i++){
-                          items[i].classList.remove("active");
-                      }
-                      e.classList.add("active");
+                 function change_content(){
+                     document.getElementById("change-content-box").style.display='block';
+
+                 }
+                 function change_content_repeat(){
+                     document.getElementById("change-content-box").style.display='none';
                  }
              </script>
 
@@ -161,6 +189,12 @@
                                 </div>
                                 <p class="cost-product">$67.24</p>
                                 <a  class="add-to-cart-button" href="#">+ Add to cart</a>
+                                <div class="choose-color-product">
+                                    <label>Choose Color</label><br>
+                                    <input type="button" name="color" class="form-control" style="background-color: #8f723b;">
+                                    <input type="button" name="color" class="form-control" style="background-color: #000000;">
+                                    <input type="button" name="color" class="form-control" style="background-color: #4c6e8d;">
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-3">
@@ -174,7 +208,7 @@
                                             <i class="fas fa-caret-right arrow-add-inf"></i>
                                         </div>
                                     </a>
-                                    <a href="#"><i class="fas fa-search"></i></a>
+                                    <a href=""><i class="fas fa-search"></i></a>
                                 </div>
                                 <h2 class="name-product">Biker Jacket</h2>
                                 <div class="star-rate">
@@ -183,6 +217,12 @@
                                 </div>
                                 <p class="cost-product">$67.24</p>
                                 <a  class="add-to-cart-button" href="#">+ Add to cart</a>
+                                <div class="choose-color-product">
+                                    <label>Choose Color</label><br>
+                                    <input type="button" name="color" class="form-control" style="background-color: #8f723b;">
+                                    <input type="button" name="color" class="form-control" style="background-color: #000000;">
+                                    <input type="button" name="color" class="form-control" style="background-color: #4c6e8d;">
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-3">
@@ -196,7 +236,7 @@
                                             <i class="fas fa-caret-right arrow-add-inf"></i>
                                         </div>
                                     </a>
-                                    <a href="#"><i class="fas fa-search"></i></a>
+                                    <a href=""><i class="fas fa-search"></i></a>
                                 </div>
                                 <h2 class="name-product">Biker Jacket</h2>
                                 <div class="star-rate">
@@ -205,6 +245,12 @@
                                 </div>
                                 <p class="cost-product">$67.24</p>
                                 <a  class="add-to-cart-button" href="#">+ Add to cart</a>
+                                <div class="choose-color-product">
+                                    <label>Choose Color</label><br>
+                                    <input type="button" name="color" class="form-control" style="background-color: #8f723b;">
+                                    <input type="button" name="color" class="form-control" style="background-color: #000000;">
+                                    <input type="button" name="color" class="form-control" style="background-color: #4c6e8d;">
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-3">
@@ -218,7 +264,7 @@
                                             <i class="fas fa-caret-right arrow-add-inf"></i>
                                         </div>
                                     </a>
-                                    <a href="#"><i class="fas fa-search"></i></a>
+                                    <a href=""><i class="fas fa-search"></i></a>
                                 </div>
                                 <h2 class="name-product">Biker Jacket</h2>
                                 <div class="star-rate">
@@ -227,6 +273,12 @@
                                 </div>
                                 <p class="cost-product">$67.24</p>
                                 <a  class="add-to-cart-button" href="#">+ Add to cart</a>
+                                <div class="choose-color-product">
+                                    <label>Choose Color</label><br>
+                                    <input type="button" name="color" class="form-control" style="background-color: #8f723b;">
+                                    <input type="button" name="color" class="form-control" style="background-color: #000000;">
+                                    <input type="button" name="color" class="form-control" style="background-color: #4c6e8d;">
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-3">
@@ -240,7 +292,7 @@
                                             <i class="fas fa-caret-right arrow-add-inf"></i>
                                         </div>
                                     </a>
-                                    <a href="#"><i class="fas fa-search"></i></a>
+                                    <a href=""><i class="fas fa-search"></i></a>
                                 </div>
                                 <h2 class="name-product">Biker Jacket</h2>
                                 <div class="star-rate">
@@ -249,6 +301,12 @@
                                 </div>
                                 <p class="cost-product">$67.24</p>
                                 <a  class="add-to-cart-button" href="#">+ Add to cart</a>
+                                <div class="choose-color-product">
+                                    <label>Choose Color</label><br>
+                                    <input type="button" name="color" class="form-control" style="background-color: #8f723b;">
+                                    <input type="button" name="color" class="form-control" style="background-color: #000000;">
+                                    <input type="button" name="color" class="form-control" style="background-color: #4c6e8d;">
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-3">
@@ -262,7 +320,7 @@
                                             <i class="fas fa-caret-right arrow-add-inf"></i>
                                         </div>
                                     </a>
-                                    <a href="#"><i class="fas fa-search"></i></a>
+                                    <a href=""><i class="fas fa-search"></i></a>
                                 </div>
                                 <h2 class="name-product">Biker Jacket</h2>
                                 <div class="star-rate">
@@ -271,6 +329,12 @@
                                 </div>
                                 <p class="cost-product">$67.24</p>
                                 <a  class="add-to-cart-button" href="#">+ Add to cart</a>
+                                <div class="choose-color-product">
+                                    <label>Choose Color</label><br>
+                                    <input type="button" name="color" class="form-control" style="background-color: #8f723b;">
+                                    <input type="button" name="color" class="form-control" style="background-color: #000000;">
+                                    <input type="button" name="color" class="form-control" style="background-color: #4c6e8d;">
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-3">
@@ -284,7 +348,7 @@
                                             <i class="fas fa-caret-right arrow-add-inf"></i>
                                         </div>
                                     </a>
-                                    <a href="#"><i class="fas fa-search"></i></a>
+                                    <a href=""><i class="fas fa-search"></i></a>
                                 </div>
                                 <h2 class="name-product">Biker Jacket</h2>
                                 <div class="star-rate">
@@ -293,6 +357,12 @@
                                 </div>
                                 <p class="cost-product">$67.24</p>
                                 <a  class="add-to-cart-button" href="#">+ Add to cart</a>
+                                <div class="choose-color-product">
+                                    <label>Choose Color</label><br>
+                                    <input type="button" name="color" class="form-control" style="background-color: #8f723b;">
+                                    <input type="button" name="color" class="form-control" style="background-color: #000000;">
+                                    <input type="button" name="color" class="form-control" style="background-color: #4c6e8d;">
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-3">
@@ -306,7 +376,7 @@
                                             <i class="fas fa-caret-right arrow-add-inf"></i>
                                         </div>
                                     </a>
-                                    <a href="#"><i class="fas fa-search"></i></a>
+                                    <a href=""><i class="fas fa-search"></i></a>
                                 </div>
                                 <h2 class="name-product">Biker Jacket</h2>
                                 <div class="star-rate">
@@ -315,6 +385,12 @@
                                 </div>
                                 <p class="cost-product">$67.24</p>
                                 <a  class="add-to-cart-button" href="#">+ Add to cart</a>
+                                <div class="choose-color-product">
+                                    <label>Choose Color</label><br>
+                                    <input type="button" name="color" class="form-control" style="background-color: #8f723b;">
+                                    <input type="button" name="color" class="form-control" style="background-color: #000000;">
+                                    <input type="button" name="color" class="form-control" style="background-color: #4c6e8d;">
+                                </div>
                             </div>
                         </div>
 
@@ -504,7 +580,7 @@
                   </ul>
               </div>
               <div class="new-letter">
-                   <h2>NEWLETTER</h2>
+                   <h2>NEW LETTER</h2>
                   <p>Be the first to know about new arrivals, look books, sales & promos!</p>
                   <input class="register-get-email form-control" type="email" id="email" placeholder="Your Email">
                   <i class="far fa-envelope email-icon"></i>
@@ -512,7 +588,7 @@
               </div>
           </div>
         <div class="footer-box-under">
-            <span>Copyright © 2021-2020 All rights reserved | This template is made with <i class="fas fa-heart"></i> by Dang Jinner | FPT Aptech</span>
+            <span>Copyright © 2021-2020 All rights reserved | This template is made with <i class="fas fa-heart" style="color: red"></i> by <span style="color: red">Dang Jinner</span> | FPT Aptech</span>
         </div>
     </div>
 </footer>

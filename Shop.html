@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shop</title>
+    <link rel="stylesheet" href="Library/Bootstrap 3.4.1/css/bootstrap.css">
+    <link rel="stylesheet" href="Library/icon_fontawesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="CSS/Shop.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+       <header class="header-box">
+
+    <div class="top-header-bar">
+        <div class="container">
+            <span class="ship-describe">Free shipping, 30-day return or refund guarantee.</span>
+            <div class="sign-in-box">
+                <span>Sign in</span>
+                <span>Faqs</span>
+                <span>Usd </span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </div>
+    <div class="under-header-bar">
+        <div class="container">
+            <div class="main-logo">
+                <img src="Image/Home/logo.png">
+            </div>
+            <nav class="nav-bar">
+                <ul class="list-menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="icon-option">
+                <a href="#"><i class="fas fa-search"></i></a>
+                <a href="#"><i class="far fa-heart"></i></a>
+                <a href="#"><i class="fas fa-cart-plus" style="margin-right: 5px"></i></a>
+                <a href="#"> <span>$0.00</span></a>
+            </div>
+        </div>
+    </div>
+</header>
+       <section class="main-box">
+               <div class="title-page">
+                   <div class="container">
+                       <h3>Shop</h3>
+                       <span>Home</span>
+                       <i class="fas fa-chevron-right"></i>
+                       <span>Shop</span>
+                   </div>
+
+               </div>
+               <div class="product-box">
+                   <div class="container">
+                       <div class="row">
+                           <div class="side-bar col-md-3">
+                                 <div class="search-bar">
+                                     <input type="text" name="search" placeholder="Search ..." class="form-control">
+                                     <a href="#"><i class="fas fa-search"></i></a>
+                                 </div>
+                                 <div class="category-box">
+                                     <div class="title-category" onclick="Close_tab(this)"><h3 >Categories<i class="fas fa-chevron-down"></i> </h3></div>
+                                             <div id="list-cate-box">
+                                                 <ul class="list-category-box">
+                                                     <li class="list-category"><a href="#">Men (20)</a></li>
+                                                     <li class="list-category"><a href="#">Women (20)</a></li>
+                                                     <li class="list-category"><a href="#">Bags (20)</a></li>
+                                                     <li class="list-category"><a href="#">Clothing (20)</a></li>
+                                                     <li class="list-category"><a href="#">Shoes (20)</a></li>
+                                                     <li class="list-category"><a href="#">Accessories (20)</a></li>
+                                                     <li class="list-category"><a href="#">Kids (20)</a></li>
+                                                 </ul>
+                                             </div>
+                                         <script type="text/javascript">
+                                             function Close_tab(){
+                                                 if(document.getElementById("list-cate-box").style.display === 'block'){
+                                                     document.getElementById("list-cate-box").style.display='none';
+                                                 }else{
+                                                     document.getElementById("list-cate-box").style.display='block';
+                                                 }
+                                             }
+
+                                         </script>
+                                 </div>
+                                 <div class="brand-box">
+                                     <div class="title-brand" onclick="Close_tab_brand(this)"><h3 >Brand<i class="fas fa-chevron-down"></i> </h3></div>
+                                     <div id="list-brand-box">
+                                         <ul class="list-brand-box">
+                                             <li class="list-brand"><a href="#">Louis Vuitton</a></li>
+                                             <li class="list-brand"><a href="#">Chanel</a></li>
+                                             <li class="list-brand"><a href="#">Hermes</a></li>
+                                             <li class="list-brand"><a href="#">Gucci</a></li>
+                                         </ul>
+                                         <script type="text/javascript">
+                                             function Close_tab_brand(){
+                                                 if(document.getElementById("list-brand-box").style.display === 'block'){
+                                                     document.getElementById("list-brand-box").style.display='none';
+                                                 }else{
+                                                     document.getElementById("list-brand-box").style.display='block';
+                                                 }
+                                             }
+
+                                         </script>
+                                     </div>
+
+                                 </div>
+                               <div class="filter-price-box">
+                                   <div class="title-price" onclick="Close_tab_price(this)"><h3 >Filter Price<i class="fas fa-chevron-down"></i> </h3></div>
+                                   <div id="list-price-box">
+                                       <ul class="list-price-box">
+                                           <li class="list-price"><a href="#">$0.00 - $50.00</a></li>
+                                           <li class="list-brand"><a href="#">$50.00 - $100.00</a></li>
+                                           <li class="list-brand"><a href="#">$100.00 - $150.00</a></li>
+                                           <li class="list-brand"><a href="#">$150.00 - $200.00</a></li>
+                                           <li class="list-brand"><a href="#">$150.00 - $200.00</a></li>
+                                           <li class="list-brand"><a href="#">$200.00 - $250.00</a></li>
+                                           <li class="list-brand"><a href="#">250.00+</a></li>
+                                       </ul>
+                                       <script type="text/javascript">
+                                           function Close_tab_price(){
+                                               if(document.getElementById("list-price-box").style.display === 'block'){
+                                                   document.getElementById("list-price-box").style.display='none';
+                                               }else{
+                                                   document.getElementById("list-price-box").style.display='block';
+                                               }
+                                           }
+
+                                       </script>
+                                   </div>
+                               </div>
+                               <div class="size-box">
+                                   <div class="title-size" onclick="Close_tab_size(this)">
+                                       <h3>Size<i class="fas fa-chevron-down"></i></h3>
+                                   </div>
+                                    <div class="choose-size-box" id="choose-size-box">
+                                        <input name="button" type="button" class="choose-size form-control" value="XS">
+                                        <input name="button" type="button" class="choose-size form-control" value="S">
+                                        <input name="button" type="button" class="choose-size form-control" value="M">
+                                        <input name="button" type="button" class="choose-size form-control" value="L">
+                                        <input name="button" type="button" class="choose-size form-control" value="XL">
+                                        <input name="button" type="button" class="choose-size form-control" value="2XL">
+                                        <input name="button" type="button" class="choose-size form-control" value="3XL">
+                                        <input name="button" type="button" class="choose-size form-control" value="4XL" style="float: none">
+
+                                    </div>
+                                   <script type="text/javascript">
+                                       function Close_tab_size(){
+                                           if(document.getElementById("choose-size-box").style.display === 'block'){
+                                               document.getElementById("choose-size-box").style.display='none';
+                                           }else{
+                                               document.getElementById("choose-size-box").style.display='block';
+                                           }
+                                       }
+                                   </script>
+                               </div>
+                               <div class="color-box">
+                                   <div class="title-size" onclick="Open_tab_colors(this)">
+                                       <h3>Colors<i class="fas fa-chevron-down"></i></h3>
+                                   </div>
+                                   <div class="choose-color" id="choose-color" >
+                                         <input type="button" name="color" class="form-control" style="background-color: #000000">
+                                         <input type="button" name="color" class="form-control" style="background-color: #0a85ef">
+                                         <input type="button" name="color" class="form-control" style="background-color: #f8c502">
+                                         <input type="button" name="color" class="form-control" style="background-color: #989491">
+                                         <input type="button" name="color" class="form-control" style="background-color: #6d4b1d">
+                                         <input type="button" name="color" class="form-control" style="background-color: #ebcef1">
+                                         <input type="button" name="color" class="form-control" style="background-color: #f3a0f2">
+                                         <input type="button" name="color" class="form-control" style="background-color: #f50f50">
+                                         <input type="button" name="color" class="form-control" style="background-color: #fcfcfc; float: none">
+                                   </div>
+                                   <script type="text/javascript">
+                                       function Open_tab_colors(){
+                                           if(document.getElementById("choose-color").style.display === 'block'){
+                                               document.getElementById("choose-color").style.display='none';
+                                           }else{
+                                               document.getElementById("choose-color").style.display='block';
+                                           }
+                                       }
+                                   </script>
+                               </div>
+                               <div class="tags-box">
+                                   <div class="title-size" onclick="Open_tab_tags(this)">
+                                       <h3>Tags<i class="fas fa-chevron-down"></i></h3>
+                                   </div>
+                                   <div class="choose-tags" id="choose-tag">
+                                       <a href="#" class="tag-title">Products</a>
+                                       <a href="#" class="tag-title">Bags</a>
+                                       <a href="#" class="tag-title">Shoes</a>
+                                       <a href="#" class="tag-title">Fashion</a>
+                                       <a href="#" class="tag-title">Clothing</a>
+                                       <a href="#" class="tag-title">Hats</a>
+                                       <a href="#" class="tag-title">Accessories</a>
+                                   </div>
+                                   <script type="text/javascript">
+                                       function Open_tab_tags(){
+                                           if(document.getElementById("choose-tag").style.display === 'block'){
+                                               document.getElementById("choose-tag").style.display='none';
+                                           }else{
+                                               document.getElementById("choose-tag").style.display='block';
+                                           }
+                                       }
+                                   </script>
+                               </div>
+
+                           </div>
+
+                           <div class="col-md-9">
+                               <div class="main-product-box ">
+                                   <div class="title-product-bar">
+                                       <div class="row">
+                                           <div class="col-md-6">
+                                               <p>Showing 1–12 of 126 results</p>
+                                           </div>
+                                           <div class="col-md-6">
+                                               <div class="sort-price">
+                                                   <span>Sort by Price: </span>
+                                                   <span class="low-to-high" onclick="open_low_price(this)">Low to High</span>
+                                                   <i class="fas fa-chevron-down arrow-down" onclick="open_low_price(this)"></i><br>
+                                                   <div class="low-to-high-price" id="low-to-high-box">
+                                                       <ul>
+                                                           <li >$0 - $50</li>
+                                                           <li>$50 - $100</li>
+                                                           <li>$100 - $200</li>
+                                                           <li >$200 - $500</li>
+                                                       </ul>
+                                                   </div>
+                                                   <script type="text/javascript">
+                                                       function open_low_price(){
+                                                           var item=document.getElementById("low-to-high-box");
+                                                           if(item.style.display === 'none'){
+                                                               document.getElementById("low-to-high-box").style.display=  'block';
+                                                           }else{
+                                                               document.getElementById("low-to-high-box").style.display=  'none';
+                                                           }
+                                                       }
+                                                   </script>
+                                               </div>
+
+                                           </div>
+                                       </div>
+                                   </div>
+                                       <div class="products-list">
+                                           <div class="row">
+                                               <div class="col-md-4">
+                                                   <div class="product-item" style="background-image: url(Image/Shop/product-1.jpg)" >
+                                                       <div class="icon-add">
+                                                           <a href="#"><i class="far fa-heart"></i></a>
+                                                           <a href="#" class="compare-icon"><i class="fas fa-exchange-alt "></i>
+                                                               <div class="add-inf-box">
+                                                                   <span class="add-inf">Compare Product</span>
+                                                                   <i class="fas fa-caret-right arrow-add-inf"></i>
+                                                               </div>
+                                                           </a>
+                                                           <a href="#"><i class="fas fa-search"></i></a>
+                                                       </div>
+                                                       <h2 class="name-product" onmouseenter="Hide_name_product(this)">#Product_1</h2>
+                                                       <div class="star-rate">
+                                                           <div class="star-rate-off"></div>
+                                                           <div class="star-rate-on" style="width: 80%"></div>
+                                                       </div>
+                                                       <p class="cost-product">$67.24</p>
+                                                       <a  class="add-to-cart-button" href="#">+ Add to cart</a>
+                                                       <div class="choose-color-product">
+                                                           <label>Choose Color</label><br>
+                                                           <input type="button" name="color" class="form-control" style="background-color: #8f723b;">
+                                                           <input type="button" name="color" class="form-control" style="background-color: #000000;">
+                                                           <input type="button" name="color" class="form-control" style="background-color: #4c6e8d;">
+                                                       </div>
+                                                   </div>
+                                               </div>
+                                               <div class="col-md-4">
+                                                   <div class="product-item" style="background-image: url(Image/Shop/product-2.jpg)">
+                                                       <span class="status-prod">Sale</span>
+                                                       <div class="icon-add">
+                                                           <a href="#"><i class="far fa-heart"></i></a>
+                                                           <a href="#" class="compare-icon"><i class="fas fa-exchange-alt "></i>
+                                                               <div class="add-inf-box">
+                                                                   <span class="add-inf">Compare Product</span>
+                                                                   <i class="fas fa-caret-right arrow-add-inf"></i>
+                                                               </div>
+                                                           </a>
+                                                           <a href="#"><i class="fas fa-search"></i></a>
+                                                       </div>
+                                                       <h2 class="name-product" onmouseenter="Hide_name_product(this)">#Product_2</h2>
+                                                       <div class="star-rate">
+                                                           <div class="star-rate-off"></div>
+                                                           <div class="star-rate-on" style="width: 85%"></div>
+                                                       </div>
+                                                       <p class="cost-product">$67.24</p>
+                                                       <a  class="add-to-cart-button" href="#">+ Add to cart</a>
+                                                       <div class="choose-color-product">
+                                                           <label>Choose Color</label><br>
+                                                           <input type="button" name="color" class="form-control" style="background-color: #8f723b;">
+                                                           <input type="button" name="color" class="form-control" style="background-color: #000000;">
+                                                           <input type="button" name="color" class="form-control" style="background-color: #4c6e8d;">
+                                                       </div>
+                                                   </div>
+                                               </div>
+                                               <div class="col-md-4">
+                                                   <div class="product-item" style="background-image: url(Image/Shop/product-3.jpg)">
+                                                       <div class="icon-add">
+                                                           <a href="#"><i class="far fa-heart"></i></a>
+                                                           <a href="#" class="compare-icon"><i class="fas fa-exchange-alt "></i>
+                                                               <div class="add-inf-box">
+                                                                   <span class="add-inf">Compare Product</span>
+                                                                   <i class="fas fa-caret-right arrow-add-inf"></i>
+                                                               </div>
+                                                           </a>
+                                                           <a href="#"><i class="fas fa-search"></i></a>
+                                                       </div>
+                                                       <h2 class="name-product" onmouseenter="Hide_name_product(this)">#Product_3</h2>
+                                                       <div class="star-rate">
+                                                           <div class="star-rate-off"></div>
+                                                           <div class="star-rate-on" style="width: 90%"></div>
+                                                       </div>
+                                                       <p class="cost-product">$67.24</p>
+                                                       <a  class="add-to-cart-button" href="#">+ Add to cart</a>
+                                                       <div class="choose-color-product">
+                                                           <label>Choose Color</label><br>
+                                                           <input type="button" name="color" class="form-control" style="background-color: #8f723b;">
+                                                           <input type="button" name="color" class="form-control" style="background-color: #000000;">
+                                                           <input type="button" name="color" class="form-control" style="background-color: #4c6e8d;">
+                                                       </div>
+                                                   </div>
+                                               </div>
+                                               <div class="col-md-4">
+                                                   <div class="product-item" style="background-image: url(Image/Shop/product-4.jpg)">
+                                                       <span class="status-prod">Sale</span>
+                                                       <div class="icon-add">
+                                                           <a href="#"><i class="far fa-heart"></i></a>
+                                                           <a href="#" class="compare-icon"><i class="fas fa-exchange-alt "></i>
+                                                               <div class="add-inf-box">
+                                                                   <span class="add-inf">Compare Product</span>
+                                                                   <i class="fas fa-caret-right arrow-add-inf"></i>
+                                                               </div>
+                                                           </a>
+                                                           <a href="#"><i class="fas fa-search"></i></a>
+                                                       </div>
+                                                       <h2 class="name-product" onmouseenter="Hide_name_product(this)">#Product_4</h2>
+                                                       <div class="star-rate">
+                                                           <div class="star-rate-off"></div>
+                                                           <div class="star-rate-on" style="width: 95%"></div>
+                                                       </div>
+                                                       <p class="cost-product">$67.24</p>
+                                                       <a  class="add-to-cart-button" href="#">+ Add to cart</a>
+                                                       <div class="choose-color-product">
+                                                           <label>Choose Color</label><br>
+                                                           <input type="button" name="color" class="form-control" style="background-color: #8f723b;">
+                                                           <input type="button" name="color" class="form-control" style="background-color: #000000;">
+                                                           <input type="button" name="color" class="form-control" style="background-color: #4c6e8d;">
+                                                       </div>
+                                                   </div>
+                                               </div>
+                                               <div class="col-md-4">
+                                                   <div class="product-item" style="background-image: url(Image/Shop/product-5.jpg)">
+                                                       <div class="icon-add">
+                                                           <a href="#"><i class="far fa-heart"></i></a>
+                                                           <a href="#" class="compare-icon"><i class="fas fa-exchange-alt "></i>
+                                                               <div class="add-inf-box">
+                                                                   <span class="add-inf">Compare Product</span>
+                                                                   <i class="fas fa-caret-right arrow-add-inf"></i>
+                                                               </div>
+                                                           </a>
+                                                           <a href="#"><i class="fas fa-search"></i></a>
+                                                       </div>
+                                                       <h2 class="name-product" onmouseenter="Hide_name_product(this)">#Product_5</h2>
+                                                       <div class="star-rate">
+                                                           <div class="star-rate-off"></div>
+                                                           <div class="star-rate-on" style="width: 50%"></div>
+                                                       </div>
+                                                       <p class="cost-product">$67.24</p>
+                                                       <a  class="add-to-cart-button" href="#">+ Add to cart</a>
+                                                       <div class="choose-color-product">
+                                                           <label>Choose Color</label><br>
+                                                           <input type="button" name="color" class="form-control" style="background-color: #8f723b;">
+                                                           <input type="button" name="color" class="form-control" style="background-color: #000000;">
+                                                           <input type="button" name="color" class="form-control" style="background-color: #4c6e8d;">
+                                                       </div>
+                                                   </div>
+                                               </div>
+                                               <div class="col-md-4">
+                                                   <div class="product-item" style="background-image: url(Image/Shop/product-6.png)">
+                                                       <div class="icon-add">
+                                                           <a href="#"><i class="far fa-heart"></i></a>
+                                                           <a href="#" class="compare-icon"><i class="fas fa-exchange-alt "></i>
+                                                               <div class="add-inf-box">
+                                                                   <span class="add-inf">Compare Product</span>
+                                                                   <i class="fas fa-caret-right arrow-add-inf"></i>
+                                                               </div>
+                                                           </a>
+                                                           <a href="#"><i class="fas fa-search"></i></a>
+                                                       </div>
+                                                       <h2 class="name-product" onmouseenter="Hide_name_product(this)">#Product_6</h2>
+                                                       <div class="star-rate">
+                                                           <div class="star-rate-off"></div>
+                                                           <div class="star-rate-on" style="width: 30%"></div>
+                                                       </div>
+                                                       <p class="cost-product">$67.24</p>
+                                                       <a  class="add-to-cart-button" href="#">+ Add to cart</a>
+                                                       <div class="choose-color-product">
+                                                           <label>Choose Color</label><br>
+                                                           <input type="button" name="color" class="form-control" style="background-color: #8f723b;">
+                                                           <input type="button" name="color" class="form-control" style="background-color: #000000;">
+                                                           <input type="button" name="color" class="form-control" style="background-color: #4c6e8d;">
+                                                       </div>
+                                                   </div>
+                                               </div>
+                                               <div class="col-md-4">
+                                                   <div class="product-item" style="background-image: url(Image/Shop/product-7.jpg)">
+                                                       <div class="icon-add">
+                                                           <a href="#"><i class="far fa-heart"></i></a>
+                                                           <a href="#" class="compare-icon"><i class="fas fa-exchange-alt "></i>
+                                                               <div class="add-inf-box">
+                                                                   <span class="add-inf">Compare Product</span>
+                                                                   <i class="fas fa-caret-right arrow-add-inf"></i>
+                                                               </div>
+                                                           </a>
+                                                           <a href="#"><i class="fas fa-search"></i></a>
+                                                       </div>
+                                                       <h2 class="name-product" onmouseenter="Hide_name_product(this)">#Product_7</h2>
+                                                       <div class="star-rate">
+                                                           <div class="star-rate-off"></div>
+                                                           <div class="star-rate-on" style="width: 75%"></div>
+                                                       </div>
+                                                       <p class="cost-product">$67.24</p>
+                                                       <a  class="add-to-cart-button" href="#">+ Add to cart</a>
+                                                       <div class="choose-color-product">
+                                                           <label>Choose Color</label><br>
+                                                           <input type="button" name="color" class="form-control" style="background-color: #8f723b;">
+                                                           <input type="button" name="color" class="form-control" style="background-color: #000000;">
+                                                           <input type="button" name="color" class="form-control" style="background-color: #4c6e8d;">
+                                                       </div>
+                                                   </div>
+                                               </div>
+                                               <div class="col-md-4">
+                                                   <div class="product-item" style="background-image: url(Image/Shop/product-8.jpg)">
+                                                       <span class="status-prod">Sale</span>
+                                                       <div class="icon-add">
+                                                           <a href="#"><i class="far fa-heart"></i></a>
+                                                           <a href="#" class="compare-icon"><i class="fas fa-exchange-alt "></i>
+                                                               <div class="add-inf-box">
+                                                                   <span class="add-inf">Compare Product</span>
+                                                                   <i class="fas fa-caret-right arrow-add-inf"></i>
+                                                               </div>
+                                                           </a>
+                                                           <a href="#"><i class="fas fa-search"></i></a>
+                                                       </div>
+                                                       <h2 class="name-product" onmouseenter="Hide_name_product(this)">#Product_8</h2>
+                                                       <div class="star-rate">
+                                                           <div class="star-rate-off"></div>
+                                                           <div class="star-rate-on" style="width: 0"></div>
+                                                       </div>
+                                                       <p class="cost-product">$67.24</p>
+                                                       <a  class="add-to-cart-button" href="#">+ Add to cart</a>
+                                                       <div class="choose-color-product">
+                                                           <label>Choose Color</label><br>
+                                                           <input type="button" name="color" class="form-control" style="background-color: #8f723b;">
+                                                           <input type="button" name="color" class="form-control" style="background-color: #000000;">
+                                                           <input type="button" name="color" class="form-control" style="background-color: #4c6e8d;">
+                                                       </div>
+                                                   </div>
+                                               </div>
+                                               <div class="col-md-4">
+                                                   <div class="product-item" style="background-image: url(Image/Shop/product-9.jpg)">
+                                                       <span class="status-prod">Sale</span>
+                                                       <div class="icon-add">
+                                                           <a href="#"><i class="far fa-heart"></i></a>
+                                                           <a href="#" class="compare-icon"><i class="fas fa-exchange-alt "></i>
+                                                               <div class="add-inf-box">
+                                                                   <span class="add-inf">Compare Product</span>
+                                                                   <i class="fas fa-caret-right arrow-add-inf"></i>
+                                                               </div>
+                                                           </a>
+                                                           <a href="#"><i class="fas fa-search"></i></a>
+                                                       </div>
+                                                       <h2 class="name-product" onmouseenter="Hide_name_product(this)">#Product_9</h2>
+                                                       <div class="star-rate">
+                                                           <div class="star-rate-off"></div>
+                                                           <div class="star-rate-on" style="width: 85%"></div>
+                                                       </div>
+                                                       <p class="cost-product">$67.24</p>
+                                                       <a  class="add-to-cart-button" href="#">+ Add to cart</a>
+                                                       <div class="choose-color-product">
+                                                           <label>Choose Color</label><br>
+                                                           <input type="button" name="color" class="form-control" style="background-color: #8f723b;">
+                                                           <input type="button" name="color" class="form-control" style="background-color: #000000;">
+                                                           <input type="button" name="color" class="form-control" style="background-color: #4c6e8d;">
+                                                       </div>
+                                                   </div>
+                                               </div>
+                                               <div class="col-md-4">
+                                                   <div class="product-item" style="background-image: url(Image/Shop/product-10.jpg)">
+                                                       <div class="icon-add">
+                                                           <a href="#"><i class="far fa-heart"></i></a>
+                                                           <a href="#" class="compare-icon"><i class="fas fa-exchange-alt "></i>
+                                                               <div class="add-inf-box">
+                                                                   <span class="add-inf">Compare Product</span>
+                                                                   <i class="fas fa-caret-right arrow-add-inf"></i>
+                                                               </div>
+                                                           </a>
+                                                           <a href="#"><i class="fas fa-search"></i></a>
+                                                       </div>
+                                                       <h2 class="name-product" onmouseenter="Hide_name_product(this)">#Product_10</h2>
+                                                       <div class="star-rate">
+                                                           <div class="star-rate-off"></div>
+                                                           <div class="star-rate-on" style="width: 95%"></div>
+                                                       </div>
+                                                       <p class="cost-product">$67.24</p>
+                                                       <a  class="add-to-cart-button" href="#">+ Add to cart</a>
+                                                       <div class="choose-color-product">
+                                                           <label>Choose Color</label><br>
+                                                           <input type="button" name="color" class="form-control" style="background-color: #8f723b;">
+                                                           <input type="button" name="color" class="form-control" style="background-color: #000000;">
+                                                           <input type="button" name="color" class="form-control" style="background-color: #4c6e8d;">
+                                                       </div>
+                                                   </div>
+                                               </div>
+                                               <div class="col-md-4">
+                                                   <div class="product-item" style="background-image: url(Image/Shop/product-11.png)">
+                                                       <div class="icon-add">
+                                                           <a href="#"><i class="far fa-heart"></i></a>
+                                                           <a href="#" class="compare-icon"><i class="fas fa-exchange-alt "></i>
+                                                               <div class="add-inf-box">
+                                                                   <span class="add-inf">Compare Product</span>
+                                                                   <i class="fas fa-caret-right arrow-add-inf"></i>
+                                                               </div>
+                                                           </a>
+                                                           <a href="#"><i class="fas fa-search"></i></a>
+                                                       </div>
+                                                       <h2 class="name-product" onmouseenter="Hide_name_product(this)">#Product_11</h2>
+                                                       <div class="star-rate">
+                                                           <div class="star-rate-off"></div>
+                                                           <div class="star-rate-on" style="width: 90%"></div>
+                                                       </div>
+                                                       <p class="cost-product">$67.24</p>
+                                                       <a  class="add-to-cart-button" href="#">+ Add to cart</a>
+                                                       <div class="choose-color-product">
+                                                           <label>Choose Color</label><br>
+                                                           <input type="button" name="color" class="form-control" style="background-color: #8f723b;">
+                                                           <input type="button" name="color" class="form-control" style="background-color: #000000;">
+                                                           <input type="button" name="color" class="form-control" style="background-color: #4c6e8d;">
+                                                       </div>
+                                                   </div>
+                                               </div>
+                                               <div class="col-md-4">
+                                                   <div class="product-item" style="background-image: url(Image/Shop/product-12.jpg)">
+                                                       <span class="status-prod">Sale</span>
+                                                       <div class="icon-add">
+                                                           <a href="#"><i class="far fa-heart"></i></a>
+                                                           <a href="#" class="compare-icon"><i class="fas fa-exchange-alt "></i>
+                                                               <div class="add-inf-box">
+                                                                   <span class="add-inf">Compare Product</span>
+                                                                   <i class="fas fa-caret-right arrow-add-inf"></i>
+                                                               </div>
+                                                           </a>
+                                                           <a href="#"><i class="fas fa-search"></i></a>
+                                                       </div>
+                                                       <h2 class="name-product" onmouseenter="Hide_name_product(this)">#Product_12</h2>
+                                                       <div class="star-rate">
+                                                           <div class="star-rate-off"></div>
+                                                           <div class="star-rate-on" style="width: 65%"></div>
+                                                       </div>
+                                                       <p class="cost-product">$67.24</p>
+                                                       <a  class="add-to-cart-button" href="#">+ Add to cart</a>
+                                                       <div class="choose-color-product">
+                                                           <label>Choose Color</label><br>
+                                                           <input type="button" name="color" class="form-control" style="background-color: #8f723b;">
+                                                           <input type="button" name="color" class="form-control" style="background-color: #000000;">
+                                                           <input type="button" name="color" class="form-control" style="background-color: #4c6e8d;">
+                                                       </div>
+                                                   </div>
+                                               </div>
+
+                                           </div>
+                                       </div>
+                                       <div class="list-pages">
+                                           <a href="#" class="page-one">1</a>
+                                           <a href="#">2</a>
+                                           <a href="#">3</a>
+                                           <span>...</span>
+                                           <a href="#">21</a>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+
+                       </div>
+
+                   </div>
+
+       </section>
+       <footer class="footer-box">
+           <div class="container">
+               <div class="footer-box-top">
+                   <div class="footer-box-top-1">
+                       <img class="logo-footer" src="Image/Home/logo-footer.png"/>
+                       <p>The customer is at the heart of our unique business model, which includes design.</p>
+                       <img class="payment-logo" src="Image/Home/footer/payment.png">
+                   </div>
+                   <div class="footer-box-top-2">
+                       <h2>shopping</h2>
+                       <ul>
+                           <li><a href="#">Clothing Store</a></li>
+                           <li><a href="#">Trending Shoes</a></li>
+                           <li><a href="#">Accessories</a></li>
+                           <li><a href="#">Sale</a></li>
+                       </ul>
+                   </div>
+                   <div class="footer-box-top-3">
+                       <h2>shopping</h2>
+                       <ul>
+                           <li><a href="#">Contact Us</a></li>
+                           <li><a href="#">Payment Methods</a></li>
+                           <li><a href="#">Delivery</a></li>
+                           <li><a href="#">Return & Exchanges</a></li>
+                       </ul>
+                   </div>
+                   <div class="new-letter">
+                       <h2>NEW LETTER</h2>
+                       <p>Be the first to know about new arrivals, look books, sales & promos!</p>
+                       <input class="register-get-email form-control" type="email" id="email" placeholder="Your Email">
+                       <i class="far fa-envelope email-icon"></i>
+                       <a class="send-button" href="#">Send</a>
+                   </div>
+               </div>
+               <div class="footer-box-under">
+                   <span>Copyright © 2021-2020 All rights reserved | This template is made with <i class="fas fa-heart" style="color: red"></i> by <span style="color: red">Dang Jinner</span> | FPT Aptech</span>
+               </div>
+           </div>
+       </footer>
+
+</body>
+</html>

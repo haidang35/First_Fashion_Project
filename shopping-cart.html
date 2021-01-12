@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Male Fashion</title>
+    <link rel="stylesheet" href="Library/Bootstrap 3.4.1/css/bootstrap.css">
+    <link rel="stylesheet" href="Library/icon_fontawesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="CSS/shopping-cart.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+     <header class="header-box">
+
+    <div class="top-header-bar">
+        <div class="container">
+            <span class="ship-describe">Free shipping, 30-day return or refund guarantee.</span>
+            <div class="sign-in-box">
+                <span>Sign in</span>
+                <span>Faqs</span>
+                <span>Usd </span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </div>
+    <div class="under-header-bar">
+        <div class="container">
+            <div class="main-logo">
+                <img src="Image/Home/logo.png">
+            </div>
+            <nav class="nav-bar">
+                <ul class="list-menu">
+                    <li><a href="#" class="home-menu">Home</a> <div class="border-bottom-nav"></div></li>
+                    <li><a href="#" class="shop-menu">Shop</a> <div class="border-bottom-nav"></div></li>
+                    <li class="list-page" onmouseenter="Open_tab_page(this)" onmouseleave="Close_tab_page(this)"><a href="#">Pages</a>
+                        <div class="sub-menu-page" id="sub-menu-page">
+                            <ul>
+                                <li style="padding-top: 10px"><a href="#">About Us</a></li>
+                                <li><a href="#">Shop Details</a></li>
+                                <li><a href="#">Shopping Cart</a></li>
+                                <li><a href="#">Check out</a></li>
+                                <li><a href="#">Blog Details</a></li>
+                            </ul>
+                        </div>
+                        <script type="text/javascript">
+
+                            function Open_tab_page(e){
+                                var item=document.getElementsByClassName("sub-menu-page");
+                                for(var i=0;i<item.length;i++){
+                                    item[i].classList.remove("active");
+                                }
+                                e.classList.add("active");
+                            }
+                            function Close_tab_page(e){
+                                e.classList.remove("active");
+                            }
+                        </script>
+                    </li>
+                    <li><a href="#">Blog</a><div class="border-bottom-nav"></div></li>
+                    <li><a href="#">Contact</a><div class="border-bottom-nav"></div></li>
+                </ul>
+            </nav>
+            <div class="icon-option">
+                <a href="#"><i class="fas fa-search"></i></a>
+                <a href="#"><i class="far fa-heart"></i></a>
+                <a href="#"><i class="fas fa-cart-plus" style="margin-right: 5px"></i></a>
+                <a href="#"> <span>$0.00</span></a>
+            </div>
+        </div>
+    </div>
+</header>
+     <section class="main-section">
+         <div class="container">
+             <div class="title-shopping-cart">
+                 <h3>Shopping Cart</h3>
+                 <span>Home</span>
+                 <i class="fas fa-chevron-right"></i>
+                 <span>Shop</span>
+                 <i class="fas fa-chevron-right"></i>
+                 <span>Shopping Cart</span>
+             </div>
+             <div class="cart-table">
+                 <div class="row">
+                     <div class="col-lg-8">
+                           <table>
+                               <thead>
+                                      <tr>
+                                          <th>Product</th>
+                                          <th>Quantity</th>
+                                          <th>Total</th>
+                                      </tr>
+                               </thead>
+                               <tbody>
+                                  <tr>
+                                      <td>
+                                          <div class="img-cart-1">
+                                              <img src="Image/Shopping-cart/cart-1.jpg">
+                                          </div>
+                                          <div class="title-cart-1">
+                                              <h4>T-shirt Contrast Pocket</h4>
+                                              <p>$98.49</p>
+                                          </div>
+                                      </td>
+                                  </tr>
+                               </tbody>
+                           </table>
+                     </div>
+                     <div class="col-md-4">
+
+                     </div>
+                 </div>
+
+             </div>
+         </div>
+
+     </section>
+
+</body>
+</html>
