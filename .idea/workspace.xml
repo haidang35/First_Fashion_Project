@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand />
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="275f41d3-367f-4532-9cbd-710448976ffa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CSS/Shop.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/Shop_detail.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/shopping-cart.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shop.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shop_Detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS/Contacts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contacts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/Home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,6 +111,18 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
