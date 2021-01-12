@@ -1,16 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="275f41d3-367f-4532-9cbd-710448976ffa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CSS/Shop.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/Shop_detail.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/shopping-cart.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shop.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shop_Detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blog_FS.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS/About.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS/Blog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS/Blog_Details.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Image/About/about1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Image/About/about2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Image/About/about3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Image/About/about4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Image/About/about5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Image/About/about6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Image/About/about_going.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Image/About/aboutshoes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Image/About/client-1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Image/About/client-2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Image/About/client-3.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Image/About/client-4.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Image/About/client-5.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Image/About/client-7.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Image/About/client-8.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Image/Blog/blog-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Image/Blog/blog1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Image/Blog/blog2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Image/Blog/blog3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Image/Blog/blog4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Image/Blog/blog5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Image/Blog/blog6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Image/Blog/blog7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Image/Blog/blog8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Image/Blog/blog9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Image/Blog_Details/blog-details.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/Blog_Details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/Home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image/Home/green-crested-lizard-5741470_1920.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +75,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1mdSKm2mOJgv0tNhfeLV92KlQDQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -38,21 +84,29 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Webstorm T2009M" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Image/Blog_Details" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\nguye\Desktop\First_Fashion_Project\Image\Home" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\First_Fashion_Project\First_Fashion_Project\Image\Blog_Details" />
+      <recent name="D:\First_Fashion_Project\First_Fashion_Project\Image\About" />
+      <recent name="D:\First_Fashion_Project\First_Fashion_Project\Image\Blog" />
+      <recent name="D:\First_Fashion_Project\First_Fashion_Project\Image" />
+      <recent name="D:\First_Fashion_Project\First_Fashion_Project\CSS" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Blog.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/First_Fashion_Project/Blog.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.Blog.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -63,15 +117,22 @@
       <option name="presentableId" value="Default" />
       <updated>1609821912799</updated>
       <workItem from="1609821913836" duration="884000" />
-      <workItem from="1609827914557" duration="12317000" />
-      <workItem from="1609897254470" duration="19027000" />
-      <workItem from="1609981676916" duration="12141000" />
-      <workItem from="1610003229988" duration="17295000" />
-      <workItem from="1610069382863" duration="20836000" />
-      <workItem from="1610156130905" duration="29489000" />
-      <workItem from="1610329841644" duration="18100000" />
-      <workItem from="1610357650914" duration="3990000" />
-      <workItem from="1610414763371" duration="1823000" />
+      <workItem from="1609827914557" duration="315000" />
+      <workItem from="1609901762151" duration="1472000" />
+      <workItem from="1609903259591" duration="852000" />
+      <workItem from="1609905089738" duration="963000" />
+      <workItem from="1609909956493" duration="1794000" />
+      <workItem from="1609911765101" duration="1658000" />
+      <workItem from="1609913575659" duration="2703000" />
+      <workItem from="1609916459957" duration="1801000" />
+      <workItem from="1609918289164" duration="1819000" />
+      <workItem from="1609920209287" duration="662000" />
+      <workItem from="1609938673133" duration="599000" />
+      <workItem from="1609981659531" duration="1790000" />
+      <workItem from="1609983486259" duration="10863000" />
+      <workItem from="1610004191744" duration="6542000" />
+      <workItem from="1610020237255" duration="8969000" />
+      <workItem from="1610070851808" duration="3622000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1609822087132</created>
@@ -94,51 +155,104 @@
       <option name="project" value="LOCAL" />
       <updated>1609822443813</updated>
     </task>
-    <task id="LOCAL-00004" summary="update">
-      <created>1609828255978</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1609828255978</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Dang Jinner update">
-      <created>1610032316269</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1610032316270</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
-    <MESSAGE value="Dang Jinner update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dang Jinner update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="735" y="310" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609822044034">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="735" y="310" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1609822044034" />
-    <state x="585" y="17" key="CommitChangelistDialog2" timestamp="1610032315205">
+    <state x="585" y="17" key="CommitChangelistDialog2" timestamp="1609822443221">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="17" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610032315205" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1610074244656">
+    <state x="585" y="17" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1609822443221" />
+    <state width="1259" height="204" key="GridCell.Tab.0.bottom" timestamp="1609910022660">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1609910022660" />
+    <state width="1259" height="204" key="GridCell.Tab.0.center" timestamp="1609910022660">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1609910022660" />
+    <state width="1259" height="204" key="GridCell.Tab.0.left" timestamp="1609910022660">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1609910022660" />
+    <state width="1259" height="204" key="GridCell.Tab.0.right" timestamp="1609910022660">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1609910022660" />
+    <state width="1259" height="204" key="GridCell.Tab.1.bottom" timestamp="1609910022660">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1609910022660" />
+    <state width="1259" height="204" key="GridCell.Tab.1.center" timestamp="1609910022660">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1609910022660" />
+    <state width="1259" height="204" key="GridCell.Tab.1.left" timestamp="1609910022660">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1609910022660" />
+    <state width="1259" height="204" key="GridCell.Tab.1.right" timestamp="1609910022660">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1609910022660" />
+    <state width="1259" height="204" key="GridCell.Tab.2.bottom" timestamp="1609910022660">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1609910022660" />
+    <state width="1259" height="204" key="GridCell.Tab.2.center" timestamp="1609910022660">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1609910022660" />
+    <state width="1259" height="204" key="GridCell.Tab.2.left" timestamp="1609910022660">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1609910022660" />
+    <state width="1259" height="204" key="GridCell.Tab.2.right" timestamp="1609910022660">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1609910022660" />
+    <state width="1259" height="204" key="GridCell.Tab.3.bottom" timestamp="1609910022662">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.3.bottom/0.0.1280.680@0.0.1280.680" timestamp="1609910022662" />
+    <state width="1259" height="204" key="GridCell.Tab.3.center" timestamp="1609910022662">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.3.center/0.0.1280.680@0.0.1280.680" timestamp="1609910022662" />
+    <state width="1259" height="204" key="GridCell.Tab.3.left" timestamp="1609910022662">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.3.left/0.0.1280.680@0.0.1280.680" timestamp="1609910022662" />
+    <state width="1259" height="204" key="GridCell.Tab.3.right" timestamp="1609910022662">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.3.right/0.0.1280.680@0.0.1280.680" timestamp="1609910022662" />
+    <state x="552" y="234" key="Vcs.Push.Dialog.v2" timestamp="1609822446106">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1610074244656" />
-    <state x="552" y="234" key="Vcs.Push.Dialog.v2" timestamp="1610032346098">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="234" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610032346098" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1610161856915">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1610161856915" />
+    <state x="552" y="234" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609822446106" />
   </component>
 </project>

@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: auto;
+}
+.adjust{
+   text-align: center;
+    padding-top: 105px;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 6rem;
+}
+a{
+    font-size: 14px;
+    color: #000000;
+}
+span{
+    color: #858583;
+}
+.part1{
+    width: auto;
+    background-image: url("https://preview.colorlib.com/theme/malefashion/img/breadcrumb-bg.jpg");
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hover-read-more{
+    width: 90px;
+    border-top:2px solid #000000;
+    transition: 500ms;
+}
+.text:hover .hover-read-more{
+    width: 30px;
+    border-top:2px solid red;
+    transition:500ms ;
+
+}
+.text a{
+    text-decoration: none;
+}
+.line1{
+    margin-top:6%;
+}
+.line2{
+    margin-top:18%;
+}
+.line3{
+    margin-top:18%;
+}
+.text{
+    background-color: #ffffff;
+    width: 71%;
+    padding: 8%;
+    margin-left: 11%;
+    position: absolute;
+    margin-top: -11%;
+}
+.part-2-box{
+    width: auto;
+}
