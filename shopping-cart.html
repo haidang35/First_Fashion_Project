@@ -70,48 +70,199 @@
     </div>
 </header>
      <section class="main-section">
-         <div class="container">
              <div class="title-shopping-cart">
+                 <div class="container">
                  <h3>Shopping Cart</h3>
                  <span>Home</span>
                  <i class="fas fa-chevron-right"></i>
                  <span>Shop</span>
                  <i class="fas fa-chevron-right"></i>
                  <span>Shopping Cart</span>
+                 </div>
              </div>
              <div class="cart-table">
-                 <div class="row">
-                     <div class="col-lg-8">
-                           <table>
-                               <thead>
-                                      <tr>
-                                          <th>Product</th>
-                                          <th>Quantity</th>
-                                          <th>Total</th>
-                                      </tr>
-                               </thead>
-                               <tbody>
-                                  <tr>
-                                      <td>
-                                          <div class="img-cart-1">
-                                              <img src="Image/Shopping-cart/cart-1.jpg">
+                 <div class="container">
+                     <div class="row">
+                         <div class="col-lg-8">
+                             <table class="table">
+                                 <thead class="title-head-table">
+                                 <tr>
+                                     <th class="product-title-table">Product</th>
+                                     <th>Quantity</th>
+                                     <th class="total-title-table">Total</th>
+                                     <th></th>
+                                 </tr>
+                                 </thead>
+                                 <tbody class="main-table">
+                                 <tr id="item-1">
+                                     <td class="product-item">
+                                         <div class="img-cart">
+                                             <img src="Image/Shopping-cart/cart-1.jpg"/>
+                                         </div>
+                                         <div class="title-cart">
+                                             <h4>T-shirt Contrast Pocket</h4>
+                                             <p>$98.49</p>
+                                         </div>
+                                     </td>
+                                     <td class="quantity-item">
+                                          <div class="quantity">
+                                              <i class="fas fa-chevron-left"></i>
+                                              <span>1</span>
+                                              <i class="fas fa-chevron-right"></i>
                                           </div>
-                                          <div class="title-cart-1">
-                                              <h4>T-shirt Contrast Pocket</h4>
-                                              <p>$98.49</p>
-                                          </div>
-                                      </td>
-                                  </tr>
-                               </tbody>
-                           </table>
-                     </div>
-                     <div class="col-md-4">
+                                     </td>
+                                     <td class="price-item">
+                                         <div class="price">
+                                             <p>$ 98.49</p>
+                                         </div>
 
+                                     </td>
+                                     <td class="delete-item">
+                                         <div class="delete" onclick="delele_item_1(this)">
+                                             <a href="#"><i class="fas fa-times"></i></a>
+                                         </div>
+
+                                     </td>
+                                     <script type="text/javascript">
+                                         function delele_item_1(){
+                                            document.getElementById("item-1").style.display='none';
+                                         }
+                                     </script>
+                                 </tr>
+                                 <tr id="item-2">
+                                     <td class="product-item">
+                                         <div class="img-cart">
+                                             <img src="Image/Shopping-cart/cart-2.jpg"/>
+                                         </div>
+                                         <div class="title-cart">
+                                             <h4>Diagonal Textured Cap</h4>
+                                             <p>$32.50</p>
+                                         </div>
+                                     </td>
+                                     <td class="quantity-item">
+                                         <div class="quantity">
+                                             <i class="fas fa-chevron-left"></i>
+                                             <span>1</span>
+                                             <i class="fas fa-chevron-right"></i>
+                                         </div>
+                                     </td>
+                                     <td class="price-item">
+                                         <div class="price">
+                                             <p>$ 32.50</p>
+                                         </div>
+
+                                     </td>
+                                     <td class="delete-item">
+                                         <div class="delete" onclick="delele_item_2(this)">
+                                             <a href="#"><i class="fas fa-times"></i></a>
+                                         </div>
+
+                                     </td>
+                                     <script type="text/javascript">
+                                         function delele_item_2(){
+                                             document.getElementById("item-2").style.display='none';
+                                         }
+                                     </script>
+                                 </tr>
+                                 <tr id="item-3">
+                                     <td class="product-item">
+                                         <div class="img-cart">
+                                             <img src="Image/Shopping-cart/cart-3.jpg"/>
+                                         </div>
+                                         <div class="title-cart">
+                                             <h4>Basic Flowing Scarf</h4>
+                                             <p>$98.49</p>
+                                         </div>
+                                     </td>
+                                     <td class="quantity-item">
+                                         <div class="quantity">
+                                             <i class="fas fa-chevron-left"></i>
+                                             <span>1</span>
+                                             <i class="fas fa-chevron-right"></i>
+                                         </div>
+                                     </td>
+                                     <td class="price-item">
+                                         <div class="price">
+                                             <p>$ 98.49</p>
+                                         </div>
+
+                                     </td>
+                                     <td class="delete-item">
+                                         <div class="delete" onclick="delele_item_3(this)">
+                                             <a href="#"><i class="fas fa-times"></i></a>
+                                         </div>
+
+                                     </td>
+                                     <script type="text/javascript">
+                                         function delele_item_3(){
+                                             document.getElementById("item-3").style.display='none';
+                                         }
+                                     </script>
+                                 </tr>
+                                 <tr id="item-4">
+                                     <td class="product-item">
+                                         <div class="img-cart">
+                                             <img src="Image/Shopping-cart/cart-4.jpg"/>
+                                         </div>
+                                         <div class="title-cart">
+                                             <h4>Basic Flowing Scarf</h4>
+                                             <p>$98.49</p>
+                                         </div>
+                                     </td>
+                                     <td class="quantity-item">
+                                         <div class="quantity">
+                                             <i class="fas fa-chevron-left"></i>
+                                             <span>1</span>
+                                             <i class="fas fa-chevron-right"></i>
+                                         </div>
+                                     </td>
+                                     <td class="price-item">
+                                         <div class="price">
+                                             <p>$ 98.49</p>
+                                         </div>
+
+                                     </td>
+                                     <td class="delete-item">
+                                         <div class="delete" onclick="delele_item_4(this)">
+                                             <a><i class="fas fa-times"></i></a>
+                                         </div>
+
+                                     </td>
+                                     <script type="text/javascript">
+                                         function delele_item_4(){
+                                             document.getElementById("item-4").style.display='none';
+                                         }
+                                     </script>
+                                 </tr>
+                                 </tbody>
+                             </table>
+                             <div class="continue-shopping">
+                                 <a href="#">Continue Shopping</a>
+                             </div>
+                             <div class="Update-cart">
+                                 <a href="#"><i class="fas fa-spinner"></i> Update Cart</a>
+                             </div>
+                         </div>
+                         <div class="col-md-4">
+                              <h3 class="discount-title">DISCOUNT CODES</h3>
+                             <div class="input-discount-code">
+                                 <input type="text" name="discount-code" class="form-control"/ >
+                                 <a href="#">Apply</a>
+                             </div>
+                             <div class="cart-total">
+                                 <h3>Cart Total</h3>
+                                 <ul>
+                                     <li>Subtotal <span>$ 327.97</span></li>
+                                     <li>Total <span>$ 327.97</span></li>
+                                 </ul>
+                                 <a class="proceed-checkout-button" href="#">Proceed to checkout</a>
+                             </div>
+                         </div>
                      </div>
                  </div>
 
+
              </div>
-         </div>
 
      </section>
 

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Check out</title>
+    <link rel="stylesheet" href="Library/Bootstrap 3.4.1/css/bootstrap.css">
+    <link rel="stylesheet" href="Library/icon_fontawesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="CSS/Check-out.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header-box">
+
+    <div class="top-header-bar">
+        <div class="container">
+            <span class="ship-describe">Free shipping, 30-day return or refund guarantee.</span>
+            <div class="sign-in-box">
+                <span>Sign in</span>
+                <span>Faqs</span>
+                <span>Usd </span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </div>
+    <div class="under-header-bar">
+        <div class="container">
+            <div class="main-logo">
+                <img src="Image/Home/logo.png">
+            </div>
+            <nav class="nav-bar">
+                <ul class="list-menu">
+                    <li><a href="#" class="home-menu">Home</a> <div class="border-bottom-nav"></div></li>
+                    <li><a href="#" class="shop-menu">Shop</a> <div class="border-bottom-nav"></div></li>
+                    <li class="list-page" onmouseenter="Open_tab_page(this)" onmouseleave="Close_tab_page(this)"><a href="#">Pages</a>
+                        <div class="sub-menu-page" id="sub-menu-page">
+                            <ul>
+                                <li style="padding-top: 10px"><a href="#">About Us</a></li>
+                                <li><a href="#">Shop Details</a></li>
+                                <li><a href="#">Shopping Cart</a></li>
+                                <li><a href="#">Check out</a></li>
+                                <li><a href="#">Blog Details</a></li>
+                            </ul>
+                        </div>
+                        <script type="text/javascript">
+
+                            function Open_tab_page(e){
+                                var item=document.getElementsByClassName("sub-menu-page");
+                                for(var i=0;i<item.length;i++){
+                                    item[i].classList.remove("active");
+                                }
+                                e.classList.add("active");
+                            }
+                            function Close_tab_page(e){
+                                e.classList.remove("active");
+                            }
+                        </script>
+                    </li>
+                    <li><a href="#">Blog</a><div class="border-bottom-nav"></div></li>
+                    <li><a href="#">Contact</a><div class="border-bottom-nav"></div></li>
+                </ul>
+            </nav>
+            <div class="icon-option">
+                <a href="#"><i class="fas fa-search"></i></a>
+                <a href="#"><i class="far fa-heart"></i></a>
+                <a href="#"><i class="fas fa-cart-plus" style="margin-right: 5px"></i></a>
+                <a href="#"> <span>$0.00</span></a>
+            </div>
+        </div>
+    </div>
+</header>
+    <section class="main-section">
+        <div class="title-shopping-cart">
+            <div class="container">
+                <h3>Check out</h3>
+                <span>Home</span>
+                <i class="fas fa-chevron-right"></i>
+                <span>Shop</span>
+                <i class="fas fa-chevron-right"></i>
+                <span>Shopping Cart</span>
+            </div>
+        </div>
+        <div class="check-out-box">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="coupon-box">
+                            <i class="fas fa-tag"></i>
+                            <a href="#">Have a coupon?  Click here to enter your code</a>
+                        </div>
+                        <div class="billing-details">
+                            <h3>Billing Details</h3>
+                            <div class="input-billing-box">
+                                <div class="first-name-box">
+                                    <label>First Name<span style="color: red">*</span></label><br>
+                                    <input type="text" class="form-control"/>
+                                </div>
+                                <div class="last-name-box">
+                                    <label>Last Name<span style="color: red">*</span></label><br>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="country-box">
+                                    <label>Country<span style="color: red">*</span></label><br>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="address-box">
+                                    <label>Address<span style="color: red">*</span></label><br>
+                                    <input type="text" class="form-control">
+                                </div>
+                                 <div class="town-box">
+                                     <label>Town/City<span style="color: red">*</span></label><br>
+                                     <input type="text" class="form-control">
+                                 </div>
+                                <div class="State-box">
+                                    <label>State<span style="color: red">*</span></label><br>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="postcode-box">
+                                    <label>Postcode/ZIP<span style="color: red">*</span></label><br>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="Phone-box">
+                                    <label>Phone<span style="color: red">*</span></label><br>
+                                    <input type="tel" class="form-control">
+                                </div>
+                                <div class="email-box">
+                                    <label>Email<span style="color: red">*</span></label><br>
+                                    <input type="email" class="form-control">
+                                </div>
+                                <div class="order-note-box">
+                                    <label>Order Note<span style="color: red">*</span></label><br>
+                                    <textarea name="note" class="form-control"></textarea>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                         <div class="your-order-box">
+                             <h3>Your Order</h3>
+                             <div class="list-order">
+                                 <div class="title-list">
+                                     <span class="product-title">Products</span>
+                                     <span class="total-title">Total</span>
+                                 </div>
+                                 <div class="product-price">
+                                     <p class="item-box">
+                                         <span class="name-prod">01. Vanilla salted caramel</span>
+                                         <span class="price-prod">$ 300.0</span>
+                                     </p>
+                                     <p class="item-box">
+                                         <span class="name-prod">02. German chocolate</span>
+                                         <span class="price-prod">$ 170.0</span>
+                                     </p>
+                                     <p class="item-box">
+                                         <span class="name-prod">03. Sweet autumn</span>
+                                         <span class="price-prod">$ 170.0</span>
+                                     </p>
+                                     <p class="item-box">
+                                         <span class="name-prod">04. Cluten free mini dozen</span>
+                                         <span class="price-prod">$ 110.0</span>
+                                     </p>
+                                 </div>
+                                 <div class="subtotal-box">
+                                     <div class="subtotal-price">
+                                         <span class="subtotal-title">Subtotal</span>
+                                         <span class="total-price">$750.99</span>
+                                     </div>
+                                     <div class="subtotal-price">
+                                         <span class="subtotal-title">Total</span>
+                                         <span class="total-price">$750.99</span>
+                                     </div>
+
+                                 </div>
+                                 <div class="note-checkout-box">
+                                     <input type="checkbox" >
+                                     <span>Create an account?</span>
+                                     <p>Lorem ipsum dolor sit amet, consectetur adip elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                     <input type="checkbox">
+                                     <span>Check Payment</span><br>
+                                     <input type="checkbox">
+                                     <span>Paypal</span>
+                                 </div>
+                                 <div class="place-order">
+                                     <a href="#">Place Order</a>
+                                 </div>
+                                 <div class="payment-checkout">
+                                     <img src="Image/Payment.png">
+                                 </div>
+
+                             </div>
+                         </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <footer class="footer-box">
+        <div class="container">
+            <div class="footer-box-top">
+                <div class="footer-box-top-1">
+                    <img class="logo-footer" src="Image/Home/logo-footer.png"/>
+                    <p>The customer is at the heart of our unique business model, which includes design.</p>
+                    <img class="payment-logo" src="Image/Home/footer/payment.png">
+                </div>
+                <div class="footer-box-top-2">
+                    <h2>shopping</h2>
+                    <ul>
+                        <li><a href="#">Clothing Store</a></li>
+                        <li><a href="#">Trending Shoes</a></li>
+                        <li><a href="#">Accessories</a></li>
+                        <li><a href="#">Sale</a></li>
+                    </ul>
+                </div>
+                <div class="footer-box-top-3">
+                    <h2>shopping</h2>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Payment Methods</a></li>
+                        <li><a href="#">Delivery</a></li>
+                        <li><a href="#">Return & Exchanges</a></li>
+                    </ul>
+                </div>
+                <div class="new-letter">
+                    <h2>NEW LETTER</h2>
+                    <p>Be the first to know about new arrivals, look books, sales & promos!</p>
+                    <input class="register-get-email form-control" type="email" id="email" placeholder="Your Email">
+                    <i class="far fa-envelope email-icon"></i>
+                    <a class="send-button" href="#">Send</a>
+                </div>
+            </div>
+            <div class="footer-box-under">
+                <span>Copyright © 2021-2020 All rights reserved | This template is made with <i class="fas fa-heart" style="color: red"></i> by <span style="color: red">Dang Jinner</span> | FPT Aptech</span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
