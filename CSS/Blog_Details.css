@@ -6,6 +6,9 @@
 body{
     font-size: 18px;
 }
+.section-main{
+    padding-bottom: 115px;
+}
 .title{
     text-align: center;
     width: auto;
@@ -48,8 +51,9 @@ body{
     border-radius: 35px;
     background-color: #4267b2;
     text-align: center;
-    padding: 14%;
+    padding: 12%;
     margin-top:5%;
+    margin-bottom: 8px;
 }
 #icon2{
     color: #ffffff;
@@ -58,8 +62,9 @@ body{
     border-radius: 35px;
     background-color: #1da1f2;
     text-align: center;
-    padding: 14%;
+    padding: 12%;
     margin-top:12%;
+    margin-bottom: 8px;
 }
 #icon3{
     color: #ffffff;
@@ -68,8 +73,9 @@ body{
     border-radius: 35px;
     background-color: #fe0003;
     text-align: center;
-    padding-top: 12%;
-    margin-top:12%;
+    padding: 12%;
+    margin-top:5%;
+    margin-bottom: 8px;
 }
 #icon4{
     color: #ffffff;
@@ -78,8 +84,8 @@ body{
     border-radius: 35px;
     background-color: #0173b2;
     text-align: center;
-    padding-top: 13%;
-    margin-top:12%;
+    padding: 12%;
+    margin-top:5%;
 }
 .add-container .container{
     width: 60%;
@@ -156,6 +162,10 @@ li{
     margin-left: 40%;
     width: 100%;
 }
+.list a{
+    text-decoration: none;
+    color: #0f0f0f;
+}
 span{
     font-size: 17px;
     font-weight: 700;
@@ -195,9 +205,10 @@ hr{
     padding: 1% 1% 15%;
 }
 .button-post{
-    padding: 2%;
-    margin-left: 39%;
-    margin-top: 5%;
+   margin-top: 30px;
+    height: 55px;
+    display: block;
+    text-align: center;
     color: #ffffff;
     background-color: #111111;
     font-size: 16px;
