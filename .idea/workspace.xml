@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="275f41d3-367f-4532-9cbd-710448976ffa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CSS/Check-out.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Check-out.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_12_2021_9_01_AM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_12_2021_9_01_AM__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog_Details.html" beforeDir="false" afterPath="$PROJECT_DIR$/Blog_Details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/Blog_Details.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/Blog_Details.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/Home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/shopping-cart.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/shopping-cart.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping-cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-cart.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +35,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../first_fashion_reactjs" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -73,7 +71,8 @@
       <workItem from="1610414763371" duration="11117000" />
       <workItem from="1610442712633" duration="1749000" />
       <workItem from="1610502817610" duration="12405000" />
-      <workItem from="1610528995726" duration="702000" />
+      <workItem from="1610528995726" duration="1891000" />
+      <workItem from="1610587699936" duration="323000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1609822087132</created>
@@ -117,7 +116,21 @@
       <option name="project" value="LOCAL" />
       <updated>1610416813047</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Dang Jinner update">
+      <created>1610529733899</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1610529733899</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Dang Jinner update">
+      <created>1610529801454</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1610529801454</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,22 +146,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="735" y="310" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1609822044034" />
-    <state x="585" y="17" key="CommitChangelistDialog2" timestamp="1610416811957">
+    <state x="585" y="17" key="CommitChangelistDialog2" timestamp="1610529800867">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="17" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610416811957" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1610528811148">
+    <state x="585" y="17" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610529800867" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1610587803855">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1610528811148" />
-    <state x="590" y="274" key="MultipleFileMergeDialog" timestamp="1610416844641">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1610587803855" />
+    <state x="184" y="86" key="MergeDialog" timestamp="1610529765320">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="590" y="274" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610416844641" />
-    <state x="552" y="234" key="Vcs.Push.Dialog.v2" timestamp="1610416878595">
+    <state x="184" y="86" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610529765320" />
+    <state x="590" y="274" key="MultipleFileMergeDialog" timestamp="1610529770969">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="234" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610416878595" />
+    <state x="590" y="274" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610529770969" />
+    <state x="552" y="234" key="Vcs.Push.Dialog.v2" timestamp="1610529805411">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="234" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610529805411" />
+    <state x="777" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610529819442">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="777" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610529819442" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1610161856915">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
