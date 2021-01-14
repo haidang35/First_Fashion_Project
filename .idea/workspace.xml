@@ -1,14 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="275f41d3-367f-4532-9cbd-710448976ffa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CSS/Check-out.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Check-out.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Js/Contacts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_12_2021_9_01_AM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_12_2021_9_01_AM__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/Home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/shopping-cart.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/shopping-cart.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping-cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/Contacts.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/Contacts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/Contacts.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,9 +34,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -37,7 +53,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Webstorm T2009M" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -70,10 +86,7 @@
       <workItem from="1610156130905" duration="29489000" />
       <workItem from="1610329841644" duration="18100000" />
       <workItem from="1610357650914" duration="3990000" />
-      <workItem from="1610414763371" duration="11117000" />
-      <workItem from="1610442712633" duration="1749000" />
-      <workItem from="1610502817610" duration="12405000" />
-      <workItem from="1610528995726" duration="702000" />
+      <workItem from="1610414763371" duration="1823000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1609822087132</created>
@@ -110,18 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610032316270</updated>
     </task>
-    <task id="LOCAL-00006" summary="Dang Jinner update">
-      <created>1610416813047</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1610416813047</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
@@ -133,22 +142,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="735" y="310" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1609822044034" />
-    <state x="585" y="17" key="CommitChangelistDialog2" timestamp="1610416811957">
+    <state x="585" y="17" key="CommitChangelistDialog2" timestamp="1610032315205">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="17" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610416811957" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1610528811148">
+    <state x="585" y="17" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610032315205" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1610074244656">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1610528811148" />
-    <state x="590" y="274" key="MultipleFileMergeDialog" timestamp="1610416844641">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1610074244656" />
+    <state x="121" y="50" key="MergeDialog" timestamp="1610587806636">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="121" y="50" key="MergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1610587806636" />
+    <state x="552" y="234" key="Vcs.Push.Dialog.v2" timestamp="1610032346098">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="590" y="274" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610416844641" />
-    <state x="552" y="234" key="Vcs.Push.Dialog.v2" timestamp="1610416878595">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="552" y="234" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610032346098" />
+    <state x="458" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610587798059">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="552" y="234" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610416878595" />
+    <state x="458" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1610587798059" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1610161856915">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

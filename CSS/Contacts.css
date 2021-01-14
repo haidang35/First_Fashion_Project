@@ -4,55 +4,42 @@
     box-sizing: border-box;
 }
 body{
+    color: #817c88;
+}
+.map{
+    width:100% ;
+    height: 450px;
+}
+.information-page{
+    margin-top: 10%;
+    padding-bottom: 65px;
+}
+.block-left{
+    margin-top: -1%;
+}
+.information-page h4{
+    color: #e53637;
+}
+.information-page h1{
+    color: #111111;
+}
+.information-page h3 {
+    color: #111111;
+}
+.input-information{
+    padding: 3% ;
     width: 100%;
 }
-.aduvjp2{
-    background-color: white;
-}
-.row{
-    margin-left: -15px;
-    margin-right: -15px;
-}
-.nani1{
-    width: 200px;
-    height: 50px;
-    margin-left: 27px;
-    margin-top: 16px;
-}
-.nani2{
-    width: 200px;
-    height: 50px;
-    margin-top: 14px;
-}
-.nani3{
-    width: 632px;
-    height: 350px;
-    margin-top: -8px;
-    margin-left: 27px;
-}
-.text{
-    padding: 4%;
-}
-.lol{
-    padding: 44%;
-    padding-top: 30px;
-    padding-left: 2px;
 
+.box-message{
+    margin-top: 4%;
+    width: 100%;
+    padding: 1% 1% 15%;
 }
-.conmemay{
-    color: red;
-}
-a{
-    background-color: black;
-    width: 188px;
-    height: 31px;
-    display: block;
-    margin-left: 27px;
-    margin-top: 0px;
-    color: white;
-    padding-top: 9px;
-    padding-left: 34px;
-}
-.col-md-6 .container{
-    width: 50%;
+.button-send{
+    color: #fbf7f3;
+    background-color: #111111;
+    margin-top: 25px;
+    padding: 2%;
+    font-size: 16px;
 }
